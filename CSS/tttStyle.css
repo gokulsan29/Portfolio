@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+table {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.bot {
+    border-bottom: 2px solid black;
+}
+.top {
+    border-top: 2px solid black;
+}
+.left {
+    border-left: 2px solid black;
+}
+.right {
+    border-right: 2px solid black;
+}

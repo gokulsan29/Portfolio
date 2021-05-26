@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+#nav {
+    position: sticky;
+    top: 0;
+}
+
+#nav-list{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.nav-links{
+    float: left;
+}
+
+.nav-links a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    background-color: #555;
+    color: white;
+}
+
+#base {
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#about {
+    margin: 10px;
+}
+
+#about img{
+    float: right;
+    height: 350px;
+    width: 250px;
+    object-fit: contain;
+}
+
+#proj {
+    margin: 10px;
+}
+
+#proj-list {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.proj-links {
+    float: left;
+}
+
+.proj-links a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.proj-links a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#skill {
+    margin: 10px;
+}
+
+#cert {
+    margin: 10px;
+}
+
+.cert-img {
+    height: 200px;
+    width: 300px;
+    object-fit: contain;
+}
+
+#contact-form {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+#form-format {
+    margin: 10px;
+}
